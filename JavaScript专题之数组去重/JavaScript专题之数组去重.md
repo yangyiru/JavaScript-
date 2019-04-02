@@ -1,5 +1,5 @@
-##JavaScript专题之数组去重
-###双重循环去重，原始方法：
+## JavaScript专题之数组去重
+### 双重循环去重，原始方法：
 ```
 var arr = [1, 0, "1", 2, "2", 2, 1, 1]
 function unique(array) {
@@ -18,7 +18,7 @@ function unique(array) {
 }
 
 ```
-###使用indexOf 简化上面内部循环
+### 使用indexOf 简化上面内部循环
 ```
 var arr = [1, 0, "1", 2, "2", 2, 1, 1]
 function unique(array) {
